@@ -10,7 +10,7 @@
 # Let's install the bot.
 cd $HOME
 git clone https://github.com/matadorshield/sdpmatador.git
-cd MaTaDoR
+cd sdpmatador
 chmod +x matador.sh
 chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 ./matador.sh install
@@ -20,7 +20,7 @@ chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh
 ### One command
 To install everything in one command, use:
 ```sh
-cd $HOME && git clone https://github.com/matadorshield/sdpmatador.git && cd MaTaDoR && chmod +x matador.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./matador.sh install && ./matador.sh
+cd $HOME && git clone https://github.com/matadorshield/sdpmatador.git && cd sdpmatador && chmod +x matador.sh && chmod 777 auto.sh && sed -i -e 's/\r$//' auto.sh && ./matador.sh install && ./matador.sh
 ```
 
 * * *
@@ -29,7 +29,7 @@ cd $HOME && git clone https://github.com/matadorshield/sdpmatador.git && cd MaTa
 
 ```
 killall screen
-cd MaTaDoR && screen ./matador.sh
+cd sdpmatador && screen ./matador.sh
 ```
 
 * * *
@@ -38,7 +38,7 @@ cd MaTaDoR && screen ./matador.sh
 ### auto launch 
 ```
 killall screen
-cd MaTaDoR && screen ./auto.sh
+cd sdpmatador && screen ./auto.sh
 ```
 
 * * *
